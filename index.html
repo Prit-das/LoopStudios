@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Loop Studios</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="hero" class="relative">
+      <!-- Hero Container -->
+      <div class="cont">
+        <!-- Nav Container -->
+        <nav class="flex justify-between items-center font-bold text-white">
+          <!-- Logo -->
+          <img src="images/logo.svg" alt="" class="cursor-pointer">
+          <!-- Nav items -->
+          <div class="hidden md:flex gap-6 text-sm font-alata">
+            <a href="#">About</a>
+            <a href="#">Career</a>
+            <a href="#">Events</a>
+            <a href="#">Products</a>
+            <a href="#">Support</a>
+          </div>
+          <!-- Hamberger Menu -->
+          <div class="block md:hidden">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </nav>
+        <!-- Hero Tagline -->
+        <div class="max-w-lg mt-32 mb-32 py-8 px-4 border-2">
+          <h1 class="text-white md:text-6xl xs:text-3xl font-thin uppercase">Impressive Experiences That Deliver</h1>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="w-full h-full bg-black flex flex-col text-white gap-6 text-lg font-alata px-12 py-12 absolute top-0 left-0" id="mobile">
+        <a href="#">About</a>
+        <a href="#">Career</a>
+        <a href="#">Events</a>
+        <a href="#">Products</a>
+        <a href="#">Support</a>
+      </div>
+    </section>
+    <!-- Info Section -->
+    <section id="info">
+      <div class="cont flex flex-col md:flex-row relative md:pl-0">
+        <!-- Info Section-->
+        <img src="images/desktop/image-interactive.jpg" class="">
+        <!-- Paragraph -->
+         <div class="md:absolute max-w-2xl bg-white px-6 py-12 right-0 bottom-0">
+          <h1 class="text-center md:text-left md:text-5xl text-4xl font-light uppercase">
+            THE LEADER IN INTERACTIVE VR
+          </h1>
+          <p class="mt-8 font-light max-w-xl text-center md:text-left">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat laborum culpa consequuntur nulla vitae consequatur soluta nostrum facere id velit esse voluptas illum reprehenderit neque suscipit at quo aut impedit quam nobis corrupti, et est earum. Similique ad officiis ab.
+          </p>
+         </div>
+      </div>
+    </section>
+    <!-- Grid Section -->
+    <section id="gridHeading">
+      <div class="cont flex flex-col gap-4 items-center md:flex-row md:justify-between">
+        <!-- Heading -->
+        <h1 class="md:text-5xl xs:text-4xl font-light uppercase">
+          Our creations
+        </h1>
+        <!-- Heading button-->
+        <button class="hidden md:block btn">See all</button>
+      </div>
+    </section>
+    <!-- Grid Gallery -->
+    <section id="grid">
+      <div class="cont grid grid-cols-1 gap-6 md:grid-cols-5 md:grid-rows-2">
+        <!-- Item 1 -->
+        <div class="relative hv">
+          <img src="images/desktop/image-deep-earth.jpg" class="hidden md:block">
+          <img src="images/mobile/image-deep-earth.jpg" class="block md:hidden">
+          <div class="para"><p class="p">Deep Earth</p></div>
+        </div>
+        <!-- Item 2 -->
+        <div class="relative hv">
+          <img src="images/desktop/image-night-arcade.jpg" class="hidden md:block">
+          <img src="images/mobile/image-night-arcade.jpg" class="block md:hidden">
+          <div class="para"><p class="p">Night Arcade</p></div>
+        </div>
+        <!-- Item 3 -->
+        <div class="relative hv">
+          <img src="images/desktop/image-soccer-team.jpg" class="hidden md:block">
+          <img src="images/mobile/image-soccer-team.jpg" class="block md:hidden">
+          <div class="para"><p class="p">soccer Team Vr</p></div>
+        </div>
+        <!-- Item 4 -->
+        <div class="relative hv">
+          <img src="images/desktop/image-grid.jpg" class="hidden md:block">
+          <img src="images/mobile/image-grid.jpg" class="block md:hidden">
+          <div class="para"><p class="p">The Grid</p></div>
+        </div>
+        <!-- Item 5 -->
+        <div class="relative hv">
+          <img src="images/desktop/image-from-above.jpg" class="hidden md:block">
+          <img src="images/mobile/image-from-above.jpg" class="block md:hidden">
+          <div class="para"><p class="p">Up above vr</p></div>
+        </div>
+        <!-- Item 6 -->
+        <div class="relative hv">
+          <img src="images/desktop/image-pocket-borealis.jpg" class="hidden md:block">
+          <img src="images/mobile/image-pocket-borealis.jpg" class="block md:hidden">
+          <div class="para"><p class="p">Pocket borealis</p></div>
+        </div>
+        <!-- Item 7 -->
+        <div class="relative hv">
+          <img src="images/desktop/image-curiosity.jpg" class="hidden md:block">
+          <img src="images/mobile/image-curiosity.jpg" class="block md:hidden">
+          <div class="para"><p class="p">the curiosity</p></div>
+        </div>
+        <!-- Item 8 -->
+        <div class="relative hv">
+          <img src="images/desktop/image-fisheye.jpg" class="hidden md:block">
+          <img src="images/mobile/image-fisheye.jpg" class="block md:hidden">
+          <div class="para"><p class="p">Make it fisheye</p></div>
+        </div>
+        <!-- Item 9 -->
+        <div class="relative hidden md:block hv">
+          <img src="images/desktop/image-glacier-in-the-mountains.jpg" class="h-full hidden md:block">
+          <div class="para"><p class="p">Glacier mountains</p></div>
+        </div>
+        <!-- Item 10 -->
+        <div class="relative hidden md:block hv">
+          <img src="images/desktop/image-black-coat.jpg" class="h-full hidden md:block">
+          <div class="para"><p class="p">Street Corner</p></div>
+        </div>
+      </div>
+        <!-- Heading button-->
+        <button class="mx-auto my-8 btn block md:hidden">See all</button>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="w-full h-fit flex flex-col md:flex-row md:items-start md:justify-between gap-12 bg-black text-slate-300 px-12 py-12">
+        <!-- Logo and Nav -->
+        <div class="flex flex-col gap-6 items-center md:items-start">
+          <img src="images/logo.svg" class="">
+          <!-- Nav items -->
+          <div class="flex flex-wrap gap-6 text-sm font-alata">
+            <a href="#">About</a>
+            <a href="#">Career</a>
+            <a href="#">Events</a> 
+            <a href="#">Products</a>
+            <a href="#">Support</a>
+          </div>
+        </div>
+        <!-- Social Links and Copyright -->
+        <div class="flex flex-col items-center md:items-end">
+          <!-- Social Links -->
+          <div class="flex gap-6">
+            <img src="images/icon-facebook.svg" class="cursor-pointer">
+            <img src="images/icon-twitter.svg" class="cursor-pointer">
+            <img src="images/icon-pinterest.svg" class="cursor-pointer">
+            <img src="images/icon-instagram.svg" class="cursor-pointer">
+          </div>
+          <!-- Copyright -->
+          <p class="capitalize mt-8">&copy; 2021 loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

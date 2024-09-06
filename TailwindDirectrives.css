@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Desgin */
+/* Background Cover */
+#hero{
+background-image: url("../images/desktop/image-hero.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Mobile Background Cover */
+@media screen and (max-width: 767px){
+    #hero{
+        background-image: url("../images/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+}
+
+/* Styling the links */
+@layer base {
+    a{
+        @apply hover:text-amber-300 hover:underline decoration-2 duration-200 underline-offset-8 decoration-amber-300
+    }
+}
+/* Container Style */
+.cont{
+    @apply container max-w-7xl mx-auto px-6 py-12;
+}
+/* Button Style */
+.btn{
+    @apply w-fit text-xl uppercase border-2 border-black px-4 py-2 hover:bg-black hover:text-white duration-200;
+}
+/* Grid Gradient Style */
+.para{
+    @apply absolute bottom-0 left-0 w-full h-full flex items-end p-4 bg-gradient-to-b from-transparent to-gray-800 hover:from-bg-white hover:opacity-60;
+}
+
+.hv{
+    @apply hover:scale-105 duration-200 cursor-pointer;
+}
+.p{
+    @apply text-white text-xl font-light uppercase w-28;
+}
+
+/* Hamberger Menu */
+
+/* Mobile Menu */
+
