@@ -35,7 +35,7 @@ background-size: cover;
 }
 /* Grid Gradient Style */
 .para{
-    @apply absolute bottom-0 left-0 w-full h-full flex items-end p-4 bg-gradient-to-b from-transparent to-gray-800 hover:from-bg-white hover:opacity-60;
+    @apply absolute bottom-0 left-0 w-full h-full flex items-end p-4 bg-gradient-to-b from-transparent to-gray-800 hover:opacity-60;
 }
 
 .hv{
@@ -46,6 +46,16 @@ background-size: cover;
 }
 
 /* Hamberger Menu */
+#menu-btn{
+    font-size: larger;
+}
 
 /* Mobile Menu */
+.mobmenu{
+    @apply absolute top-0 bottom-0 left-0 z-30 flex flex-col justify-center items-center gap-11 w-full max-h-screen text-lg text-white uppercase bg-black md:hidden translate-y-[-100%]
+}
 
+.open{
+    transform: translateY(0);
+    transition: all 0.5s;
+}
